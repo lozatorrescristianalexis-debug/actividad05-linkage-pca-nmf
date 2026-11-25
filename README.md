@@ -13,14 +13,14 @@
 | Caso | Método y datos | Resultado |
 |---|---|---|
 | 1 | Clustering jerárquico de 20 Newsgroups; cuatro linkages | `ward` fue el mejor (ARI 0.260, NMI 0.366), aunque la pureza global fue 59.2%. `single` reunió 99.3% de los documentos en su cluster mayor. |
-| 2 | Eigenfaces con PCA en Olivetti Faces; 1-NN y SVM | Prueba: píxeles + 1-NN 92.5%, PCA (40 componentes) + 1-NN 91.2%, PCA + SVM 98.8% (79/80). |
+| 2 | Eigenfaces con PCA en Olivetti Faces y búsqueda por distancia | PCA (62 componentes): euclídea top-1 74/80 (92.5%) y top-5 78/80 (97.5%); coseno top-1 73/80 (91.2%) y top-5 75/80 (93.8%). Píxeles crudos, euclídea: 74/80 (92.5%) y 78/80 (97.5%). Agrupamiento ward: ARI 0.526, NMI 0.825; K-means: ARI 0.451, NMI 0.785. |
 | 3 | Recomendación con NMF y coseno en 20 Newsgroups | Precisión@5: NMF (20 temas) 44.7%, TF-IDF directo 63.4%, azar 5.1%. TF-IDF obtuvo el mejor resultado en esta métrica. |
 
-En Eigenfaces usamos PCA y clasificadores clásicos, sin redes neuronales. En el caso NMF, algunos componentes son genéricos o poco claros.
+En Eigenfaces, PCA y los agrupamientos no supervisados se ajustan sin etiquetas; las etiquetas solo se usan para evaluar. La identidad devuelta es la del rostro de galería más cercano; no entrenamos un modelo de clasificación ni usamos redes neuronales. En el caso NMF, algunos componentes son genéricos o poco claros.
 
 ## Ejecución
 
-Cada integrante puede trabajar con la herramienta que tenga disponible: Jupyter Notebook, Visual Studio Code o Google Colab. Instalen las dependencias en el entorno que usará cada uno:
+Cada integrante puede ejecutar los cuadernos en Jupyter, Visual Studio Code o Google Colab, según su entorno. Instalen las dependencias en el entorno que usarán:
 
 ```bash
 pip install -r requirements.txt

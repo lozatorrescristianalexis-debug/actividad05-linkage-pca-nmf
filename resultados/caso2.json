@@ -1,31 +1,192 @@
 {
   "n_total": 400,
   "n_personas": 40,
-  "n_train": 320,
-  "n_test": 80,
-  "n90": 62,
-  "n95": 111,
-  "cv_knn": {
-    "5": 0.690625,
-    "10": 0.85625,
-    "20": 0.909375,
-    "30": 0.9125,
-    "40": 0.915625,
-    "60": 0.9093749999999999,
-    "80": 0.909375,
-    "100": 0.9031250000000001,
-    "150": 0.9031250000000001
+  "dimensiones_pixeles": 4096,
+  "n_galeria": 320,
+  "n_consultas": 80,
+  "componentes_n90": 62,
+  "componentes_n95": 111,
+  "varianza_n90": 0.9000511765480042,
+  "varianza_n95": 0.9501062631607056,
+  "busqueda": {
+    "PCA": {
+      "euclidean": {
+        "top1_aciertos": 74,
+        "top1_total": 80,
+        "top1_exactitud": 0.925,
+        "top5_aciertos": 78,
+        "top5_total": 80,
+        "top5_exactitud": 0.975
+      },
+      "cosine": {
+        "top1_aciertos": 73,
+        "top1_total": 80,
+        "top1_exactitud": 0.9125,
+        "top5_aciertos": 75,
+        "top5_total": 80,
+        "top5_exactitud": 0.9375
+      }
+    },
+    "Píxeles": {
+      "euclidean": {
+        "top1_aciertos": 74,
+        "top1_total": 80,
+        "top1_exactitud": 0.925,
+        "top5_aciertos": 78,
+        "top5_total": 80,
+        "top5_exactitud": 0.975
+      },
+      "cosine": {
+        "top1_aciertos": 74,
+        "top1_total": 80,
+        "top1_exactitud": 0.925,
+        "top5_aciertos": 77,
+        "top5_total": 80,
+        "top5_exactitud": 0.9625
+      }
+    }
   },
-  "mejor_n": 40,
-  "pix_cv": 0.903125,
-  "acc_pix_test": 0.925,
-  "acc_knn_test": 0.9125,
-  "acc_svm_test": 0.9875,
-  "svm_params": {
-    "pca__n_components": 40.0,
-    "svc__C": 10.0,
-    "svc__gamma": 0.01
+  "tabla_componentes_informativa": [
+    {
+      "componentes": 10,
+      "distancia": "euclidean",
+      "top1_aciertos": 70,
+      "top1_total": 80,
+      "top1_exactitud": 0.875,
+      "top5_aciertos": 77,
+      "top5_total": 80,
+      "top5_exactitud": 0.9625
+    },
+    {
+      "componentes": 10,
+      "distancia": "cosine",
+      "top1_aciertos": 69,
+      "top1_total": 80,
+      "top1_exactitud": 0.8625,
+      "top5_aciertos": 75,
+      "top5_total": 80,
+      "top5_exactitud": 0.9375
+    },
+    {
+      "componentes": 20,
+      "distancia": "euclidean",
+      "top1_aciertos": 73,
+      "top1_total": 80,
+      "top1_exactitud": 0.9125,
+      "top5_aciertos": 77,
+      "top5_total": 80,
+      "top5_exactitud": 0.9625
+    },
+    {
+      "componentes": 20,
+      "distancia": "cosine",
+      "top1_aciertos": 71,
+      "top1_total": 80,
+      "top1_exactitud": 0.8875,
+      "top5_aciertos": 76,
+      "top5_total": 80,
+      "top5_exactitud": 0.95
+    },
+    {
+      "componentes": 40,
+      "distancia": "euclidean",
+      "top1_aciertos": 73,
+      "top1_total": 80,
+      "top1_exactitud": 0.9125,
+      "top5_aciertos": 78,
+      "top5_total": 80,
+      "top5_exactitud": 0.975
+    },
+    {
+      "componentes": 40,
+      "distancia": "cosine",
+      "top1_aciertos": 73,
+      "top1_total": 80,
+      "top1_exactitud": 0.9125,
+      "top5_aciertos": 75,
+      "top5_total": 80,
+      "top5_exactitud": 0.9375
+    },
+    {
+      "componentes": 62,
+      "distancia": "euclidean",
+      "top1_aciertos": 74,
+      "top1_total": 80,
+      "top1_exactitud": 0.925,
+      "top5_aciertos": 78,
+      "top5_total": 80,
+      "top5_exactitud": 0.975
+    },
+    {
+      "componentes": 62,
+      "distancia": "cosine",
+      "top1_aciertos": 73,
+      "top1_total": 80,
+      "top1_exactitud": 0.9125,
+      "top5_aciertos": 75,
+      "top5_total": 80,
+      "top5_exactitud": 0.9375
+    },
+    {
+      "componentes": 80,
+      "distancia": "euclidean",
+      "top1_aciertos": 74,
+      "top1_total": 80,
+      "top1_exactitud": 0.925,
+      "top5_aciertos": 78,
+      "top5_total": 80,
+      "top5_exactitud": 0.975
+    },
+    {
+      "componentes": 80,
+      "distancia": "cosine",
+      "top1_aciertos": 73,
+      "top1_total": 80,
+      "top1_exactitud": 0.9125,
+      "top5_aciertos": 76,
+      "top5_total": 80,
+      "top5_exactitud": 0.95
+    }
+  ],
+  "agrupamiento": {
+    "K-means": {
+      "ari": 0.45079490211535933,
+      "nmi": 0.7846664289192207,
+      "homogeneidad": 0.7721845769663119,
+      "silueta": 0.1996109038591385
+    },
+    "Jerárquico (ward)": {
+      "ari": 0.5261020881670534,
+      "nmi": 0.8246005685972326,
+      "homogeneidad": 0.8118390046805773,
+      "silueta": 0.21427413821220398
+    }
   },
-  "svm_cv": 0.9625000000000001,
-  "errores_svm": 1
+  "personas_fuera_galeria": {
+    "identidades_reservadas": [
+      4,
+      15,
+      16,
+      19,
+      26
+    ],
+    "n_galeria_conocida": 280,
+    "n_consultas_conocidas": 70,
+    "n_consultas_desconocidas": 10,
+    "n_componentes_90": 55,
+    "umbral_distancia": 6.029093265533447,
+    "conocidas_aceptadas": 69,
+    "conocidas_total": 70,
+    "porcentaje_conocidas_aceptadas": 0.9857142857142858,
+    "aciertos_entre_conocidas_aceptadas": 64,
+    "conocidas_aceptadas_evaluadas": 69,
+    "porcentaje_aciertos_entre_aceptadas": 0.927536231884058,
+    "desconocidas_rechazadas": 7,
+    "desconocidas_total": 10,
+    "porcentaje_desconocidas_rechazadas": 0.7
+  },
+  "ejemplos_reconocer": {
+    "acierto": 0,
+    "error": 8
+  }
 }
