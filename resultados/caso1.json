@@ -1,0 +1,187 @@
+{
+  "categorias": [
+    "comp.graphics",
+    "rec.autos",
+    "sci.med",
+    "sci.space",
+    "talk.politics.guns"
+  ],
+  "n_docs": 1000,
+  "k": 5,
+  "tfidf_shape": [
+    1000,
+    5000
+  ],
+  "lsa_dim": 100,
+  "var_lsa": 0.2529498012890717,
+  "metodos": {
+    "ward": {
+      "ARI": 0.2597118797642089,
+      "NMI": 0.365622021452325,
+      "homogeneidad": 0.3347184807388894,
+      "silhouette": 0.03193518718902967,
+      "cofenetica": 0.25078584708932655,
+      "pct_cluster_mayor": 47.5,
+      "n_clusters": 5
+    },
+    "complete": {
+      "ARI": 0.031122459969655812,
+      "NMI": 0.048900952994385995,
+      "homogeneidad": 0.048324771502327085,
+      "silhouette": 0.005211521837597438,
+      "cofenetica": 0.41004302411869625,
+      "pct_cluster_mayor": 31.1,
+      "n_clusters": 5
+    },
+    "average": {
+      "ARI": 0.005867387417383797,
+      "NMI": 0.08366820008998602,
+      "homogeneidad": 0.0508484085992655,
+      "silhouette": 0.018028403799798493,
+      "cofenetica": 0.5307084373579002,
+      "pct_cluster_mayor": 92.8,
+      "n_clusters": 5
+    },
+    "single": {
+      "ARI": 1.020706916320181e-05,
+      "NMI": 0.011294172266487202,
+      "homogeneidad": 0.005824794976909321,
+      "silhouette": -0.03383495091404204,
+      "cofenetica": 0.2665606516882968,
+      "pct_cluster_mayor": 99.3,
+      "n_clusters": 5
+    }
+  },
+  "mejor": "ward",
+  "silhouette_k": {
+    "2": 0.03578166683602062,
+    "3": 0.032599637211852946,
+    "4": 0.030618919045558832,
+    "5": 0.03193518718902967,
+    "6": 0.03414686678574317,
+    "7": 0.03330594614920122,
+    "8": 0.03436442796595877,
+    "9": 0.03450668235966054,
+    "10": 0.03560885064238584
+  },
+  "pureza_global": 0.592,
+  "crosstab": {
+    "1": {
+      "comp.graphics": 0,
+      "rec.autos": 0,
+      "sci.med": 34,
+      "sci.space": 0,
+      "talk.politics.guns": 0
+    },
+    "2": {
+      "comp.graphics": 164,
+      "rec.autos": 13,
+      "sci.med": 21,
+      "sci.space": 22,
+      "talk.politics.guns": 9
+    },
+    "3": {
+      "comp.graphics": 7,
+      "rec.autos": 2,
+      "sci.med": 4,
+      "sci.space": 97,
+      "talk.politics.guns": 8
+    },
+    "4": {
+      "comp.graphics": 1,
+      "rec.autos": 12,
+      "sci.med": 2,
+      "sci.space": 5,
+      "talk.politics.guns": 124
+    },
+    "5": {
+      "comp.graphics": 28,
+      "rec.autos": 173,
+      "sci.med": 139,
+      "sci.space": 76,
+      "talk.politics.guns": 59
+    }
+  },
+  "clusters": [
+    {
+      "cluster": 1,
+      "tamano": 34,
+      "dominante": "sci.med",
+      "pureza": 1.0,
+      "terminos": [
+        "shameful",
+        "cadre",
+        "dsl",
+        "chastity",
+        "skepticism",
+        "n3jxp",
+        "surrender",
+        "geb"
+      ]
+    },
+    {
+      "cluster": 2,
+      "tamano": 229,
+      "dominante": "comp.graphics",
+      "pureza": 0.7161572052401747,
+      "terminos": [
+        "thanks",
+        "graphics",
+        "software",
+        "files",
+        "program",
+        "know",
+        "image",
+        "file"
+      ]
+    },
+    {
+      "cluster": 3,
+      "tamano": 118,
+      "dominante": "sci.space",
+      "pureza": 0.8220338983050848,
+      "terminos": [
+        "space",
+        "nasa",
+        "orbit",
+        "launch",
+        "moon",
+        "use",
+        "lunar",
+        "information"
+      ]
+    },
+    {
+      "cluster": 4,
+      "tamano": 144,
+      "dominante": "talk.politics.guns",
+      "pureza": 0.8611111111111112,
+      "terminos": [
+        "people",
+        "gun",
+        "fbi",
+        "law",
+        "don",
+        "government",
+        "rights",
+        "batf"
+      ]
+    },
+    {
+      "cluster": 5,
+      "tamano": 475,
+      "dominante": "rec.autos",
+      "pureza": 0.3642105263157895,
+      "terminos": [
+        "car",
+        "don",
+        "just",
+        "like",
+        "know",
+        "good",
+        "time",
+        "think"
+      ]
+    }
+  ]
+}

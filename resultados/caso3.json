@@ -1,0 +1,404 @@
+{
+  "n_docs": 9373,
+  "vocab": 8000,
+  "n_consultas": 500,
+  "candidatos": {
+    "10": {
+      "error": 94.65287218160226,
+      "p5": 0.3336
+    },
+    "20": {
+      "error": 93.94814664803134,
+      "p5": 0.44680000000000003
+    },
+    "30": {
+      "error": 93.36064017891489,
+      "p5": 0.42040000000000005
+    },
+    "40": {
+      "error": 92.85649254668502,
+      "p5": 0.4408000000000001
+    }
+  },
+  "k": 20,
+  "p5_nmf": 0.44680000000000003,
+  "p5_tfidf": 0.6344000000000001,
+  "p5_azar": 0.050685969306796114,
+  "temas": [
+    {
+      "tema": 0,
+      "palabras": [
+        "ve",
+        "time",
+        "got",
+        "just",
+        "did",
+        "didn",
+        "years",
+        "ago"
+      ],
+      "grupo_dominante": "sci.med"
+    },
+    {
+      "tema": 1,
+      "palabras": [
+        "card",
+        "video",
+        "bus",
+        "cards",
+        "drivers",
+        "monitor",
+        "driver",
+        "vga"
+      ],
+      "grupo_dominante": "comp.sys.ibm.pc.hardware"
+    },
+    {
+      "tema": 2,
+      "palabras": [
+        "geb",
+        "dsl",
+        "chastity",
+        "n3jxp",
+        "cadre",
+        "shameful",
+        "intellect",
+        "pitt"
+      ],
+      "grupo_dominante": "sci.med"
+    },
+    {
+      "tema": 3,
+      "palabras": [
+        "game",
+        "team",
+        "games",
+        "players",
+        "year",
+        "play",
+        "season",
+        "hockey"
+      ],
+      "grupo_dominante": "rec.sport.hockey"
+    },
+    {
+      "tema": 4,
+      "palabras": [
+        "government",
+        "gun",
+        "law",
+        "people",
+        "state",
+        "rights",
+        "guns",
+        "crime"
+      ],
+      "grupo_dominante": "talk.politics.guns"
+    },
+    {
+      "tema": 5,
+      "palabras": [
+        "god",
+        "jesus",
+        "bible",
+        "christians",
+        "believe",
+        "christian",
+        "christ",
+        "faith"
+      ],
+      "grupo_dominante": "soc.religion.christian"
+    },
+    {
+      "tema": 6,
+      "palabras": [
+        "sale",
+        "offer",
+        "shipping",
+        "price",
+        "condition",
+        "interested",
+        "new",
+        "00"
+      ],
+      "grupo_dominante": "misc.forsale"
+    },
+    {
+      "tema": 7,
+      "palabras": [
+        "thanks",
+        "advance",
+        "know",
+        "mail",
+        "does",
+        "hi",
+        "info",
+        "help"
+      ],
+      "grupo_dominante": "comp.graphics"
+    },
+    {
+      "tema": 8,
+      "palabras": [
+        "key",
+        "chip",
+        "encryption",
+        "clipper",
+        "keys",
+        "escrow",
+        "algorithm",
+        "secure"
+      ],
+      "grupo_dominante": "sci.crypt"
+    },
+    {
+      "tema": 9,
+      "palabras": [
+        "israel",
+        "israeli",
+        "jews",
+        "armenian",
+        "armenians",
+        "turkish",
+        "war",
+        "arab"
+      ],
+      "grupo_dominante": "talk.politics.mideast"
+    },
+    {
+      "tema": 10,
+      "palabras": [
+        "drive",
+        "scsi",
+        "drives",
+        "hard",
+        "disk",
+        "controller",
+        "ide",
+        "floppy"
+      ],
+      "grupo_dominante": "comp.sys.ibm.pc.hardware"
+    },
+    {
+      "tema": 11,
+      "palabras": [
+        "windows",
+        "file",
+        "dos",
+        "files",
+        "program",
+        "ms",
+        "ftp",
+        "directory"
+      ],
+      "grupo_dominante": "comp.os.ms-windows.misc"
+    },
+    {
+      "tema": 12,
+      "palabras": [
+        "car",
+        "cars",
+        "engine",
+        "dealer",
+        "speed",
+        "miles",
+        "ford",
+        "good"
+      ],
+      "grupo_dominante": "rec.autos"
+    },
+    {
+      "tema": 13,
+      "palabras": [
+        "window",
+        "problem",
+        "application",
+        "server",
+        "using",
+        "motif",
+        "display",
+        "manager"
+      ],
+      "grupo_dominante": "comp.windows.x"
+    },
+    {
+      "tema": 14,
+      "palabras": [
+        "don",
+        "think",
+        "know",
+        "people",
+        "want",
+        "just",
+        "say",
+        "really"
+      ],
+      "grupo_dominante": "alt.atheism"
+    },
+    {
+      "tema": 15,
+      "palabras": [
+        "10",
+        "11",
+        "12",
+        "15",
+        "13",
+        "17",
+        "14",
+        "16"
+      ],
+      "grupo_dominante": "rec.sport.hockey"
+    },
+    {
+      "tema": 16,
+      "palabras": [
+        "like",
+        "sounds",
+        "just",
+        "looks",
+        "look",
+        "lot",
+        "does",
+        "things"
+      ],
+      "grupo_dominante": "sci.space"
+    },
+    {
+      "tema": 17,
+      "palabras": [
+        "bike",
+        "ride",
+        "bikes",
+        "riding",
+        "motorcycle",
+        "dod",
+        "right",
+        "road"
+      ],
+      "grupo_dominante": "rec.motorcycles"
+    },
+    {
+      "tema": 18,
+      "palabras": [
+        "space",
+        "nasa",
+        "information",
+        "edu",
+        "com",
+        "research",
+        "available",
+        "university"
+      ],
+      "grupo_dominante": "sci.space"
+    },
+    {
+      "tema": 19,
+      "palabras": [
+        "use",
+        "mac",
+        "port",
+        "software",
+        "modem",
+        "apple",
+        "serial",
+        "pc"
+      ],
+      "grupo_dominante": "comp.sys.mac.hardware"
+    }
+  ],
+  "ejemplos": [
+    {
+      "titulo": "nuclear waste",
+      "grupo": "sci.space",
+      "recomendaciones": [
+        {
+          "titulo": "Homeopathy: a respectable medical tradition?",
+          "grupo": "sci.med",
+          "similitud": 0.971
+        },
+        {
+          "titulo": "MORBUS MENIERE - is there a real remedy?",
+          "grupo": "sci.med",
+          "similitud": 0.961
+        },
+        {
+          "titulo": "response",
+          "grupo": "talk.politics.misc",
+          "similitud": 0.943
+        },
+        {
+          "titulo": "jiggers",
+          "grupo": "sci.med",
+          "similitud": 0.94
+        },
+        {
+          "titulo": "Is MSG sensitivity superstition?",
+          "grupo": "sci.med",
+          "similitud": 0.937
+        }
+      ]
+    },
+    {
+      "titulo": "NHL Team Captains",
+      "grupo": "rec.sport.hockey",
+      "recomendaciones": [
+        {
+          "titulo": "NHL Team Captains",
+          "grupo": "rec.sport.hockey",
+          "similitud": 0.986
+        },
+        {
+          "titulo": "ABC's announcers, ESPN's (lack of) coverage (WAS: Re: Atlanta ...)",
+          "grupo": "rec.sport.hockey",
+          "similitud": 0.984
+        },
+        {
+          "titulo": "Don Cherry - Coach's Corner summary - April 19, 1993",
+          "grupo": "rec.sport.hockey",
+          "similitud": 0.983
+        },
+        {
+          "titulo": "Why Spanky?",
+          "grupo": "rec.sport.baseball",
+          "similitud": 0.983
+        },
+        {
+          "titulo": "Pleasant Yankee Surprises",
+          "grupo": "rec.sport.baseball",
+          "similitud": 0.978
+        }
+      ]
+    },
+    {
+      "titulo": "TIFF: philosophical significance of 42",
+      "grupo": "comp.graphics",
+      "recomendaciones": [
+        {
+          "titulo": "Asynchronous X Windows?",
+          "grupo": "comp.windows.x",
+          "similitud": 0.942
+        },
+        {
+          "titulo": "CorelDraw Bitmap to SCODAL",
+          "grupo": "comp.graphics",
+          "similitud": 0.908
+        },
+        {
+          "titulo": "CorelDraw BITMAP to SCODAL (2)",
+          "grupo": "comp.graphics",
+          "similitud": 0.898
+        },
+        {
+          "titulo": "XV under MS-DOS ?!?",
+          "grupo": "comp.graphics",
+          "similitud": 0.883
+        },
+        {
+          "titulo": "DMORPH",
+          "grupo": "comp.graphics",
+          "similitud": 0.881
+        }
+      ]
+    }
+  ]
+}
